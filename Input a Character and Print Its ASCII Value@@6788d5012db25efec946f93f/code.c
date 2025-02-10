@@ -2,6 +2,6 @@
 
 int main() {
     char ch= 'A';
-    printf("ASCII value: %d\n", ch, ch);
+    printf("ASCII Value: %d\n", ch, ch);
     return 0;
 }
