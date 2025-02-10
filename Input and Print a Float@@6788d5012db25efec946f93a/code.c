@@ -2,10 +2,14 @@
 
 
 
-float main() {
+int main() {
     float a;
-    printf("You entered: ");
-    scanf("%f",&a);
+
+    // Take input for the floating-point number
+    scanf("%f", &a);
+
+    // Print the floating-point number
+    printf("%.2f\n", a);
     
     
     
