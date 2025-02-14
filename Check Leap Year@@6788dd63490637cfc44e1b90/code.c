@@ -9,9 +9,9 @@ int main() {
 
     // Check whether the year is a leap year or not
     if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
-        printf("%d is a leap year.\n", year);
+        printf("Leap Year %d\n", year);
     } else {
-        printf("%d is not a leap year.\n", year);
+        printf("Not a Leap Year %d\n", year);
     }
 
     return 0;
