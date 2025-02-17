@@ -5,10 +5,8 @@ int main() {
      scanf("%d%d%d%d%d%d", &A,&B,&C,&D,&E,&F);
 
    
-    marks=100;
-    
+    marks = 100;
 
-    // Check the marks and assign a grade
     if (marks >= 90) {
         printf("A\n");
     }
