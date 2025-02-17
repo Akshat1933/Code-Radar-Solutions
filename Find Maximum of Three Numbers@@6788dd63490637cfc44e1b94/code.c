@@ -4,22 +4,22 @@ int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
     if(a>b){
-        printf("a is maximum");
+        printf("%d",a);
     }
     else if(b>a){
-        printf("b is maximum");
+        printf("%d",b);
     }
     else if(b>c){
-        printf("b is maximum");
+        printf("%d",b);
     }
     else if(c>b){
-        printf("c is maximum");
+        printf("%d",c);
     }
     else if(a>c){
-        printf("a is maximum");
+        printf("%d",a);
     }
     else if(c>a){
-        printf("c is maximum");
+        printf("%d",c);
     }
     return 0;
    
