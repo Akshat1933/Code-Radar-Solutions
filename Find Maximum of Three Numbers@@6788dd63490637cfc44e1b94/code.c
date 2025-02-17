@@ -23,6 +23,7 @@ int main(){
     }
     else{
         printf("%d",a);
+    }
     
     
         
