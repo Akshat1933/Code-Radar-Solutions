@@ -2,6 +2,7 @@
 
 int main() {
     int A,B,C,D,E,F,marks;
+     scanf("%d%d%d%d%d%d", &A,&B,&C,&D,&E,&F);
 
     // Get the marks from the user
     printf("Enter the marks (0 to 100): ");
