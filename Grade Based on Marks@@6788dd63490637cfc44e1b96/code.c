@@ -9,7 +9,7 @@ int main() {
     
 
     // Check the marks and assign a grade
-    if (marks >= 90 && marks <= 100) {
+    if (marks >= 90) {
         printf("A\n");
     }
     else if (marks >= 80 && marks < 90) {
