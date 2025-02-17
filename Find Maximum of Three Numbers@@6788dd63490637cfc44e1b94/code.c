@@ -21,8 +21,9 @@ int main(){
     else if(a<c){
         printf("%d",a);
     }
-    else if(a){
-        printf("%d",a);
+    else{
+        printf("%d %d",a,b);
+        
         
 
     }
