@@ -16,10 +16,10 @@ int main(){
         printf("%d",c);
     }
     else if(c>a){
-        printf("%d",a);
+        printf("%d",c);
     }
     else if(a<a){
-        printf("%d",c);
+        printf("%d",a);
     }
     return 0;
    
