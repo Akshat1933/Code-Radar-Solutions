@@ -28,7 +28,7 @@ int main() {
         printf("F\n");
     }
     else {
-        // Handle invalid marks
+        
         printf("Invalid marks entered!\n");
     }
 
