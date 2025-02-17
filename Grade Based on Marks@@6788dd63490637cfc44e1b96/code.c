@@ -9,22 +9,22 @@ int main() {
 
     // Check the marks and assign a grade
     if (marks >= 90 && marks <= 100) {
-        printf("Grade: A\n");
+        printf("A\n");
     }
     else if (marks >= 80 && marks < 90) {
-        printf("Grade: B\n");
+        printf("B\n");
     }
     else if (marks >= 70 && marks < 80) {
-        printf("Grade: C\n");
+        printf("C\n");
     }
     else if (marks >= 60 && marks < 70) {
-        printf("Grade: D\n");
+        printf("D\n");
     }
     else if (marks >= 50 && marks < 60) {
-        printf("Grade: E\n");
+        printf("E\n");
     }
     else if (marks >= 0 && marks < 50) {
-        printf("Grade: F\n");
+        printf("F\n");
     }
     else {
         // Handle invalid marks
