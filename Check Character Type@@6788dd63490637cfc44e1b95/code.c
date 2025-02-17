@@ -7,21 +7,20 @@ int main() {
     if (isalpha(ch)) {
         ch = tolower(ch);
     }
-        
-    else if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-        printf("%c", );
+         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+        printf("Vowel" );
         } 
-    else if {
-        printf("%c", );
+        else if {
+        printf("Consonant" );
         }
     
     else if (isdigit(ch)) {
         
-        printf("%c", );
+        printf("Digit" );
     } 
     else {
       
-        printf("%c", ch);
+        printf("Special Character");
     }
 
     return 0;
