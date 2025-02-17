@@ -3,8 +3,6 @@
 int main() {
     int n;
 
-    // Ask the user for the number of rows
-    printf("Enter the number of rows: ");
     scanf("%d", &n);
 
     // Loop through each row
