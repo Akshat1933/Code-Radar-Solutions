@@ -8,13 +8,10 @@ int main(){
     }
     else if(a>b>c){
         printf("%d",a);
-    }
-    else{
         printf("%d",b);
+        printf("%d",c)
     }
-    else{
-        printf("%d",c);
-    }
+    
     
         
         
