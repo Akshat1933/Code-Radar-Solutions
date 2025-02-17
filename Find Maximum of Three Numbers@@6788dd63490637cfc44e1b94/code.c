@@ -23,9 +23,7 @@ int main(){
     }
     else if(a){
         printf("%d",a);
-    else{
-        printf("%d",c);
-    }    
+        
 
     }
     
