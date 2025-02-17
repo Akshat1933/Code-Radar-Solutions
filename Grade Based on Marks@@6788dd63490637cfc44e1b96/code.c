@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main(){
     int A,B,C,D,F,marks;
-    scanf("%d %d %d %d",&A,&B,&C,&D,&F);
-    marks=100;
+    scanf("%d %d %d %d",&A,&B,&C,&D,&F,&marks);
+    
     if(marks>=90){
         printf("A");
     }
