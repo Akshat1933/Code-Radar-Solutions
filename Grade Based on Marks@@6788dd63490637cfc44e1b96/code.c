@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main(){
     int A,B,C,D,F,marks;
+    printf("Enter marks: ");
     scanf("%d%d%d%d",&A,&B,&C,&D,&F);
     marks=100;
         if(marks>=90){
