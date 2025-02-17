@@ -12,7 +12,6 @@ int main(){
     else{
         printf("%d",num3);
     }
-
     return 0;
 }
 
