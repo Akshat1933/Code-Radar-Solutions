@@ -21,8 +21,12 @@ int main(){
     else if(a<c){
         printf("%d",a);
     }
-    else{
+    else if(a){
         printf("%d",a);
+    else{
+        printf("%d",c);
+    }    
+
     }
     
     return 0;
