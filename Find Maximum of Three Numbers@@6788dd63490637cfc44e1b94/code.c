@@ -21,7 +21,7 @@ int main(){
     else if(a<c){
         printf("%d",a);
     }
-    else{
+    else(a=b=c){
         printf("%d%d%d",a,b,c);
     }
     
