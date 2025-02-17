@@ -15,10 +15,10 @@ int main(){
     else if(b<c){
         printf("%d",c);
     }
-    else if(a>c){
+    else if(c>a){
         printf("%d",a);
     }
-    else if(c<a){
+    else if(a<a){
         printf("%d",c);
     }
     return 0;
