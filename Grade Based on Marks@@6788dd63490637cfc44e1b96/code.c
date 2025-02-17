@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int marks;
+    int A,B,C,D,E,F,marks;
 
     // Get the marks from the user
     printf("Enter the marks (0 to 100): ");
