@@ -8,7 +8,7 @@ int main(){
         printf("A");
     }
     else if(marks>=80){
-        printf(""B);
+        printf("B");
     }
     else if(marks>=70){
         printf("C");
