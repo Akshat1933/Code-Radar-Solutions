@@ -3,8 +3,8 @@
 int main(){
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
-    if(a=b=c){
-        printf("%d%d%d",a,b,c);
+    if(a=b){
+        printf("%d%d",a,b);
     }
     else if(a>b){
         printf("%d",a);
