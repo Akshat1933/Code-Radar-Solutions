@@ -1,20 +1,27 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int A,B,C,D;
-    scanf("%d %d %d %d",&A,&B,&C,&D);
-    if(A>=B && A>=C && A>=D){
+    int A,B,C,D,F,marks;
+    scanf("%d %d %d %d",&A,&B,&C,&D,&F);
+    marks=100;
+    if(marks>=90){
         printf("%d",A);
     }
-    else if(B>=A && B>=C && B>=D){
+    else if(marks>=80 && marks<90){
         printf("%d",B);
     }
-    else if(C>=A && C>=B && C>=D){
+    else if(marks>=70 && marks<80){
         printf("%d",C);
     }
-    else{
+    else if(marks>=60 && marks<70){
         printf("%d",D);
     }
+    else{
+        printf("%d",F);
+    }
+
+
+    
     return 0;
 
     
