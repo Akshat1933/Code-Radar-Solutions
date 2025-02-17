@@ -8,14 +8,14 @@ int main() {
         ch = tolower(ch);
     }
 
-    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
         printf("Vowel" );
     } 
-     else {
+        else {
         printf("Consonant" );
      }
     
-    else if (isdigit(ch)) {
+        else if (isdigit(ch)) {
         
         printf("Digit" );
     } 
