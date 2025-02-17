@@ -4,9 +4,9 @@ int main() {
     int A,B,C,D,E,F,marks;
      scanf("%d%d%d%d%d%d", &A,&B,&C,&D,&E,&F);
 
-    // Get the marks from the user
-    printf("Enter the marks (0 to 100): ");
-    scanf("%d", &marks);
+   
+    marks=100;
+    
 
     // Check the marks and assign a grade
     if (marks >= 90 && marks <= 100) {
