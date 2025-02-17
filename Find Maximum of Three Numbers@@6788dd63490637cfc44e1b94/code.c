@@ -3,7 +3,10 @@
 int main(){
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
-    if(a>b){
+    if(a=b=c){
+        printf("%d%d%d",a,b,c);
+    }
+    else if(a>b){
         printf("%d",a);
     }
     else if(a<b){
@@ -21,9 +24,7 @@ int main(){
     else if(a<c){
         printf("%d",a);
     }
-    else if(a=b=c){
-        printf("%d%d%d",a,b,c);
-    }
+    
     return 0;
    
 }
