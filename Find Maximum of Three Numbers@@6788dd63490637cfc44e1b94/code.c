@@ -21,6 +21,9 @@ int main(){
     else if(a<c){
         printf("%d",a);
     }
+    else{
+        printf("%d%d%d",a,b,c);
+    }
     
     return 0;
    
