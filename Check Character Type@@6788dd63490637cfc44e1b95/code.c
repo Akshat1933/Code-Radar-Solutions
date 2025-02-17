@@ -9,7 +9,7 @@ int main() {
     }
         
     else if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-        printf("%c",);
+        printf("%c", );
         } 
     else if {
         printf("%c", );
