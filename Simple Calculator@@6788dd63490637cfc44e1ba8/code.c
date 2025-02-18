@@ -22,7 +22,8 @@ int main() {
         case '/':
             if (num2 != 0) {
                 printf("%.2lf / %.2lf = %.2lf\n", num1, num2, num1 / num2);
-            } else {
+            } 
+            else {
                 printf("Error! Division by zero.\n");
             }
             
