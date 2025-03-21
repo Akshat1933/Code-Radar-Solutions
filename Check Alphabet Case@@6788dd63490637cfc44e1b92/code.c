@@ -2,8 +2,8 @@
 
 
 int main() {
-    char ch;
-    scanf("%c", &ch);
+    char A,a;
+    scanf("%c", &A,&a);
     if(A){
         printf("Uppercase");
     }
