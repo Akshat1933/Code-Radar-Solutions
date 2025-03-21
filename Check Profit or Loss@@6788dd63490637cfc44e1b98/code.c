@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int costprice,sellingprice;
-    printf("Enter cost price: \n");
-    scanf("%d",&cost price);
-    printf("Enter selling price: \n");
-    scanf("%d",&selling price);
-    if(cost price < selling price){
+    int cp,sp;
+    printf("Enter cp: \n");
+    scanf("%d",&cp);
+    printf("Enter sp: \n");
+    scanf("%d",&sp);
+    if(cp < sp){
         printf("Profit");
     }
-    else if(cost price > selling price){
+    else if(cp > sp){
         printf("Loss");
     }
     else{
