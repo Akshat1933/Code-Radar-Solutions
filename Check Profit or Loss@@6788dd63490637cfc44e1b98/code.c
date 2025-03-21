@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int cost price,selling price;
+    int costprice,sellingprice;
     printf("Enter cost price: \n");
     scanf("%d",&cost price);
     printf("Enter selling price: \n");
