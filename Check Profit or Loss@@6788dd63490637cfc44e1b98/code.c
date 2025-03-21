@@ -2,9 +2,9 @@
 int main()
 {
     int cp,sp;
-    printf("Enter cp: \n");
+   
     scanf("%d",&cp);
-    printf("Enter sp: \n");
+    
     scanf("%d",&sp);
     if(cp < sp){
         printf("Profit");
