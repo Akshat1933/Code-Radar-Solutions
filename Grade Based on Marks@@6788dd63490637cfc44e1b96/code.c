@@ -19,10 +19,10 @@ int main() {
     else if (marks <= 60 && marks >= 70) {
         printf("D\n");
     }
-    else if (marks >= 50 && marks < 60) {
+    else if (marks <= 50 && marks >= 60) {
         printf("E\n");
     }
-    else if (marks >= 0 && marks < 50) {
+    else if (marks <= 0 && marks >= 50) {
         printf("F\n");
     }
     else {
